@@ -22,8 +22,6 @@ The autoencoder is trained using only normal instances from the dataset. During 
 
 During inference, new instances are fed through the trained autoencoder, and their reconstruction errors are calculated. Instances with reconstruction errors exceeding a predefined threshold are classified as anomalies. We evaluate the model's performance on a separate test set containing both normal and anomalous instances.
 
-## Usage
-
-1. Clone the repository:
+Clone the repository:
 
 https://github.com/ashu3984/anomaly_detection_autoencoder.git
